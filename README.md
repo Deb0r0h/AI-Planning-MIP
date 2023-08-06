@@ -1,5 +1,5 @@
 # AI-Planning-MIP
-Il codice è scritto totalmente in Python
+Il codice è scritto totalmente in Python, all'interno della cartella script
 
 Negli esperimenti sono state utilizzate 150 istanze di problemi, tutte appartenenti alla
 classe MICONIC. Nel primo esperimento, sono state utilizzate 141 istanze
