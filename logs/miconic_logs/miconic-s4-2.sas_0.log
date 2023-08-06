@@ -1,0 +1,90 @@
+JOBNAME = miconic-s4-2.sas_0
+JOBID = 708101
+Linux razor-14.dei.unipd.it 5.12.10-300.fc34.x86_64 #1 SMP Thu Jun 10 14:21:36 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+INFO     Running search (release).
+INFO     search stdin: /nfsd/rop/instances/PlanningSAS/miconic-s4-2.sas
+INFO     search time limit: 3600s
+INFO     search memory limit: None
+INFO     search command line string: /home/salvagni/Basel/downward/builds/release/bin/downward --search 'astar(LMcut())' --internal-plan-file sas_plan < /nfsd/rop/instances/PlanningSAS/miconic-s4-2.sas
+[t=0s, 45824 KB] reading input...
+[t=0.000996307s, 45824 KB] done reading input!
+[t=0.00198768s, 46212 KB] Initializing landmark cut heuristic...
+[t=0.00198768s, 46212 KB] Building successor generator...done!
+[t=0.00198768s, 46212 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.00198768s, 46212 KB] time for successor generation creation: 0s
+[t=0.00198768s, 46212 KB] Variables: 9
+[t=0.00198768s, 46212 KB] FactPairs: 24
+[t=0.00198768s, 46212 KB] Bytes per state: 4
+[t=0.00198768s, 46212 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+[t=0.00198768s, 46212 KB] New best heuristic value for lmcut: 14
+[t=0.00198768s, 46212 KB] g=0, 1 evaluated, 0 expanded
+[t=0.00198768s, 46212 KB] f = 14, 1 evaluated, 0 expanded
+[t=0.00198768s, 46212 KB] Initial heuristic value for lmcut: 14
+[t=0.00298253s, 46212 KB] pruning method: none
+[t=0.00298253s, 46212 KB] f = 15, 8 evaluated, 1 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 13
+[t=0.00298253s, 46212 KB] g=2, 9 evaluated, 2 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 12
+[t=0.00298253s, 46212 KB] g=3, 10 evaluated, 3 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 11
+[t=0.00298253s, 46212 KB] g=4, 17 evaluated, 6 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 10
+[t=0.00298253s, 46212 KB] g=5, 18 evaluated, 7 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 9
+[t=0.00298253s, 46212 KB] g=6, 25 evaluated, 8 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 8
+[t=0.00298253s, 46212 KB] g=7, 27 evaluated, 9 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 7
+[t=0.00298253s, 46212 KB] g=8, 33 evaluated, 11 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 6
+[t=0.00298253s, 46212 KB] g=9, 36 evaluated, 12 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 5
+[t=0.00298253s, 46212 KB] g=10, 41 evaluated, 13 expanded
+[t=0.00298253s, 46212 KB] New best heuristic value for lmcut: 4
+[t=0.00298253s, 46212 KB] g=11, 47 evaluated, 14 expanded
+[t=0.00397777s, 46212 KB] New best heuristic value for lmcut: 3
+[t=0.00397777s, 46212 KB] g=12, 49 evaluated, 15 expanded
+[t=0.00397777s, 46212 KB] New best heuristic value for lmcut: 2
+[t=0.00397777s, 46212 KB] g=13, 58 evaluated, 16 expanded
+[t=0.00397777s, 46212 KB] New best heuristic value for lmcut: 1
+[t=0.00397777s, 46212 KB] g=14, 65 evaluated, 17 expanded
+[t=0.00397777s, 46212 KB] New best heuristic value for lmcut: 0
+[t=0.00397777s, 46212 KB] g=15, 66 evaluated, 18 expanded
+[t=0.00397777s, 46212 KB] Solution found!
+[t=0.00397777s, 46212 KB] Actual search time: 0.000995243s
+up f0 f1 (1)
+board f1 p2 (1)
+up f1 f3 (1)
+board f3 p0 (1)
+down f3 f0 (1)
+depart f0 p0 (1)
+up f0 f4 (1)
+board f4 p1 (1)
+down f4 f2 (1)
+depart f2 p1 (1)
+up f2 f6 (1)
+board f6 p3 (1)
+depart f6 p2 (1)
+up f6 f7 (1)
+depart f7 p3 (1)
+[t=0.00397777s, 46212 KB] Plan length: 15 step(s).
+[t=0.00397777s, 46212 KB] Plan cost: 15
+[t=0.00397777s, 46212 KB] Expanded 19 state(s).
+[t=0.00397777s, 46212 KB] Reopened 0 state(s).
+[t=0.00397777s, 46212 KB] Evaluated 66 state(s).
+[t=0.00397777s, 46212 KB] Evaluations: 66
+[t=0.00397777s, 46212 KB] Generated 140 state(s).
+[t=0.00397777s, 46212 KB] Dead ends: 0 state(s).
+[t=0.00397777s, 46212 KB] Expanded until last jump: 1 state(s).
+[t=0.00397777s, 46212 KB] Reopened until last jump: 0 state(s).
+[t=0.00397777s, 46212 KB] Evaluated until last jump: 8 state(s).
+[t=0.00397777s, 46212 KB] Generated until last jump: 7 state(s).
+[t=0.00397777s, 46212 KB] Number of registered states: 66
+[t=0.00397777s, 46212 KB] Int hash set load factor: 66/128 = 0.515625
+[t=0.00397777s, 46212 KB] Int hash set resizes: 7
+[t=0.00397777s, 46212 KB] Search time: 0.00199009s
+[t=0.00397777s, 46212 KB] Total time: 0.00397777s
+Solution found.
+Peak memory: 46212 KB
+search exit code: 0
+

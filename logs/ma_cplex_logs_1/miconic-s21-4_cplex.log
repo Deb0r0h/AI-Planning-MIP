@@ -1,0 +1,47 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               600
+Tried aggregator 3 times.
+MIP Presolve eliminated 132616 rows and 10082 columns.
+MIP Presolve modified 1409 coefficients.
+Aggregator did 124205 substitutions.
+Reduced MIP has 11874 rows, 127373 columns, and 266886 nonzeros.
+Reduced MIP has 127331 binaries, 42 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.72 sec. (1689.77 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 11874 rows, 127373 columns, and 266886 nonzeros.
+Reduced MIP has 127331 binaries, 42 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.31 sec. (194.81 ticks)
+Probing fixed 64 vars, tightened 0 bounds.
+Probing changed sense of 16 constraints.
+Probing time = 0.33 sec. (36.11 ticks)
+Clique table members: 257750.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 2.06 sec. (966.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       42.4155  8920                     42.4155       23         
+      0     0       70.0000  1082                    Cuts: 47    21026         
+      0     0       70.0000  1004                    Cuts: 53    38962         
+      0     0       70.0000   954                    Cuts: 28    50245         
+      0     0       70.0000  1040                ZeroHalf: 42    65470         
+      0     0       70.0000  1090                ZeroHalf: 48    77423         
+Heuristic still looking.
+
+Zero-half cuts applied:  117
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  28
+
+Root node processing (before b&c):
+  Real time             =  600.05 sec. (278202.74 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.05 sec. (278202.74 ticks)

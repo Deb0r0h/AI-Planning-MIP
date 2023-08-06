@@ -1,0 +1,47 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 3 times.
+MIP Presolve eliminated 588 rows and 241 columns.
+MIP Presolve modified 21 coefficients.
+Aggregator did 386 substitutions.
+Reduced MIP has 187 rows, 393 columns, and 975 nonzeros.
+Reduced MIP has 387 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.81 ticks)
+Found incumbent of value 10.000000 after 0.01 sec. (4.77 ticks)
+Probing fixed 12 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.47 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 14 rows and 17 columns.
+Aggregator did 4 substitutions.
+Reduced MIP has 169 rows, 372 columns, and 906 nonzeros.
+Reduced MIP has 366 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.08 ticks)
+Probing time = 0.00 sec. (0.37 ticks)
+Clique table members: 865.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.90 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           10.0000        0.0000           100.00%
+      0     0        6.3750   108       10.0000        6.3750      132   36.25%
+      0     0        cutoff             10.0000                    312    0.00%
+Elapsed time = 0.05 sec. (19.96 ticks, tree = 0.01 MB, solutions = 1)
+
+Clique cuts applied:  7
+Implied bound cuts applied:  3
+Zero-half cuts applied:  6
+Gomory fractional cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (20.00 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (20.00 ticks)

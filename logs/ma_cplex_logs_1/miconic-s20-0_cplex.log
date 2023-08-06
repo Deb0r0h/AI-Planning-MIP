@@ -1,0 +1,62 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               600
+Tried aggregator 4 times.
+MIP Presolve eliminated 110400 rows and 10061 columns.
+MIP Presolve modified 1220 coefficients.
+Aggregator did 102987 substitutions.
+Reduced MIP has 10273 rows, 104552 columns, and 219607 nonzeros.
+Reduced MIP has 104512 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.44 sec. (1478.71 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10273 rows, 104552 columns, and 219607 nonzeros.
+Reduced MIP has 104512 binaries, 40 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.27 sec. (176.81 ticks)
+Probing fixed 62 vars, tightened 0 bounds.
+Probing time = 0.57 sec. (52.19 ticks)
+Clique table members: 211421.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 1.79 sec. (816.78 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       40.3752  7548                     40.3752       28         
+      0     0       63.0000  1089                    Cuts: 37    16262         
+      0     0       63.0000   833                    Cuts: 60    26448         
+      0     0       63.0000   771                ZeroHalf: 64    37426         
+      0     0       63.0000   667                ZeroHalf: 64    48377         
+      0     0       63.0000   790                ZeroHalf: 51    61633         
+      0     0       63.0000   855                ZeroHalf: 59    73960         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+      0     2       63.0000   855                     63.0000    73960         
+Elapsed time = 379.87 sec. (225921.75 ticks, tree = 0.02 MB, solutions = 0)
+      1     3       63.0000   815                     63.0000    85438         
+      2     3       63.0000   610                     63.0000    82250         
+      3     4       63.0000   777                     63.0000    86854         
+      4     5       63.0000   611                     63.0000    99958         
+      5     6       63.0000   674                     63.0000   106115         
+      6     5       63.0000   619                     63.0000   100213         
+      8     7       63.0000   574                     63.0000   109858         
+      9     7       63.0000   651                     63.0000   112948         
+     10     6       63.0000   664                     63.0000   104528         
+     11    11       63.0000   634                     63.0000   135581         
+Elapsed time = 600.13 sec. (278591.44 ticks, tree = 0.12 MB, solutions = 0)
+
+Clique cuts applied:  4
+Zero-half cuts applied:  186
+Gomory fractional cuts applied:  24
+
+Root node processing (before b&c):
+  Real time             =  379.42 sec. (225741.29 ticks)
+Parallel b&c, 8 threads:
+  Real time             =  220.72 sec. (54061.69 ticks)
+  Sync time (average)   =   59.45 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.14 sec. (279802.98 ticks)

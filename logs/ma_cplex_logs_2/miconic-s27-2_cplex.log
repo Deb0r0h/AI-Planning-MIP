@@ -1,0 +1,44 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               600
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 87.0000.
+Tried aggregator 3 times.
+MIP Presolve eliminated 268208 rows and 16488 columns.
+MIP Presolve modified 2269 coefficients.
+Aggregator did 254731 substitutions.
+Reduced MIP has 19086 rows, 259655 columns, and 538878 nonzeros.
+Reduced MIP has 259601 binaries, 54 generals, 0 SOSs, and 0 indicators.
+Presolve time = 4.20 sec. (4161.45 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 19086 rows, 259655 columns, and 538878 nonzeros.
+Reduced MIP has 259601 binaries, 54 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.89 sec. (432.19 ticks)
+Probing fixed 81 vars, tightened 0 bounds.
+Probing changed sense of 20 constraints.
+Probing time = 0.52 sec. (66.36 ticks)
+Clique table members: 524151.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 2.59 sec. (1552.88 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           87.0000        0.0000           100.00%
+      0     0       54.3908 14208       87.0000       54.3908       27   37.48%
+      0     0        cutoff             87.0000                     60    0.00%
+Elapsed time = 39.12 sec. (30617.68 ticks, tree = 0.01 MB, solutions = 1)
+
+Gomory fractional cuts applied:  33
+
+Root node processing (before b&c):
+  Real time             =   39.14 sec. (30635.50 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   39.14 sec. (30635.50 ticks)

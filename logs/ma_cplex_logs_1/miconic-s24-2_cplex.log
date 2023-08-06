@@ -1,0 +1,45 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               600
+Tried aggregator 4 times.
+MIP Presolve eliminated 191328 rows and 14425 columns.
+MIP Presolve modified 1800 coefficients.
+Aggregator did 180591 substitutions.
+Reduced MIP has 15129 rows, 183128 columns, and 381772 nonzeros.
+Reduced MIP has 183080 binaries, 48 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.96 sec. (2955.55 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 15129 rows, 183128 columns, and 381772 nonzeros.
+Reduced MIP has 183080 binaries, 48 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.60 sec. (325.10 ticks)
+Probing fixed 73 vars, tightened 0 bounds.
+Probing time = 1.16 sec. (100.87 ticks)
+Clique table members: 369640.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 3.39 sec. (1331.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       48.3842 11184                     48.3842       26         
+      0     0       77.0000  1008                    Cuts: 30    23323         
+      0     0       77.0000  1205                   Cuts: 125    39982         
+      0     0       77.0000  1187                ZeroHalf: 65    60031         
+      0     0       77.0000  1257                ZeroHalf: 54    80409         
+
+Clique cuts applied:  4
+Zero-half cuts applied:  159
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  34
+
+Root node processing (before b&c):
+  Real time             =  600.07 sec. (251287.50 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.07 sec. (251287.50 ticks)

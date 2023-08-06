@@ -1,0 +1,55 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Read_DataCheck                          1
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 27.0000.
+Tried aggregator 4 times.
+MIP Presolve eliminated 8336 rows and 1657 columns.
+MIP Presolve modified 192 coefficients.
+Aggregator did 7040 substitutions.
+Reduced MIP has 1640 rows, 7287 columns, and 16213 nonzeros.
+Reduced MIP has 7271 binaries, 16 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (63.31 ticks)
+Probing fixed 27 vars, tightened 0 bounds.
+Probing changed sense of 3 constraints.
+Probing time = 0.02 sec. (3.47 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 24 rows and 32 columns.
+Aggregator did 14 substitutions.
+Reduced MIP has 1602 rows, 7241 columns, and 16060 nonzeros.
+Reduced MIP has 7225 binaries, 16 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (17.04 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0.02 sec. (3.15 ticks)
+Clique table members: 14979.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.07 sec. (45.31 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           27.0000        0.0000           100.00%
+      0     0       16.4083  1191       27.0000       16.4083     1400   39.23%
+      0     0       26.0000   485       27.0000      Cuts: 66     3626    3.70%
+      0     0       26.0000   480       27.0000      Cuts: 33     5514    3.70%
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 318 rows and 3717 columns.
+MIP Presolve modified 11 coefficients.
+Aggregator did 270 substitutions.
+Reduced MIP has 1014 rows, 3254 columns, and 7650 nonzeros.
+Reduced MIP has 3254 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (17.60 ticks)
+Represolve time = 0.03 sec. (28.07 ticks)
+
+Root node processing (before b&c):
+  Real time             =    1.93 sec. (1435.39 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.93 sec. (1435.39 ticks)

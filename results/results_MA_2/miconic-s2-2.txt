@@ -1,0 +1,9 @@
+board f0 p1_var1_1, 
+up f0 f2, 
+depart f2 p1_var2_1, 
+up f2 f3, 
+board f3 p0_var3_1, 
+down f3 f0, 
+depart f0 p0_var4_1, 
+Total of 7 steps required
+0.03136253356933594 seconds elapsed

@@ -1,0 +1,150 @@
+JOBNAME = miconic-s11-4.sas_0
+JOBID = 707989
+Linux razor-16.dei.unipd.it 5.12.10-300.fc34.x86_64 #1 SMP Thu Jun 10 14:21:36 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+INFO     Running search (release).
+INFO     search stdin: /nfsd/rop/instances/PlanningSAS/miconic-s11-4.sas
+INFO     search time limit: 3600s
+INFO     search memory limit: None
+INFO     search command line string: /home/salvagni/Basel/downward/builds/release/bin/downward --search 'astar(LMcut())' --internal-plan-file sas_plan < /nfsd/rop/instances/PlanningSAS/miconic-s11-4.sas
+[t=0s, 45824 KB] reading input...
+[t=0.000995985s, 45824 KB] done reading input!
+[t=0.00298365s, 46356 KB] Initializing landmark cut heuristic...
+[t=0.00298365s, 46356 KB] Building successor generator...done!
+[t=0.00298365s, 46356 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.00298365s, 46356 KB] time for successor generation creation: 0s
+[t=0.00298365s, 46356 KB] Variables: 23
+[t=0.00298365s, 46356 KB] FactPairs: 66
+[t=0.00298365s, 46356 KB] Bytes per state: 4
+[t=0.00298365s, 46356 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+[t=0.00298365s, 46356 KB] New best heuristic value for lmcut: 34
+[t=0.00397771s, 46356 KB] g=0, 1 evaluated, 0 expanded
+[t=0.00397771s, 46356 KB] f = 34, 1 evaluated, 0 expanded
+[t=0.00397771s, 46356 KB] Initial heuristic value for lmcut: 34
+[t=0.00397771s, 46356 KB] pruning method: none
+[t=0.0059699s, 46356 KB] f = 35, 22 evaluated, 1 expanded
+[t=0.0059699s, 46356 KB] New best heuristic value for lmcut: 33
+[t=0.0059699s, 46356 KB] g=2, 23 evaluated, 3 expanded
+[t=0.0059699s, 46356 KB] New best heuristic value for lmcut: 32
+[t=0.0059699s, 46356 KB] g=3, 24 evaluated, 4 expanded
+[t=0.00896283s, 46356 KB] New best heuristic value for lmcut: 31
+[t=0.00896283s, 46356 KB] g=4, 45 evaluated, 5 expanded
+[t=0.00896283s, 46356 KB] New best heuristic value for lmcut: 30
+[t=0.00896283s, 46356 KB] g=5, 47 evaluated, 6 expanded
+[t=0.0109553s, 46356 KB] New best heuristic value for lmcut: 29
+[t=0.0109553s, 46356 KB] g=6, 67 evaluated, 8 expanded
+[t=0.0159407s, 46356 KB] New best heuristic value for lmcut: 28
+[t=0.0159407s, 46356 KB] g=7, 114 evaluated, 13 expanded
+[t=0.0169442s, 46356 KB] New best heuristic value for lmcut: 27
+[t=0.0169442s, 46356 KB] g=8, 133 evaluated, 15 expanded
+[t=0.0219175s, 46356 KB] New best heuristic value for lmcut: 26
+[t=0.0219175s, 46356 KB] g=9, 182 evaluated, 21 expanded
+[t=0.0229148s, 46356 KB] New best heuristic value for lmcut: 25
+[t=0.023911s, 46356 KB] g=10, 199 evaluated, 24 expanded
+[t=0.0278942s, 46356 KB] New best heuristic value for lmcut: 24
+[t=0.0278942s, 46356 KB] g=11, 246 evaluated, 29 expanded
+[t=0.0288926s, 46356 KB] New best heuristic value for lmcut: 23
+[t=0.0288926s, 46356 KB] g=12, 265 evaluated, 31 expanded
+[t=0.0358715s, 46356 KB] New best heuristic value for lmcut: 22
+[t=0.0358715s, 46356 KB] g=13, 354 evaluated, 38 expanded
+[t=0.0368705s, 46356 KB] New best heuristic value for lmcut: 21
+[t=0.0368705s, 46356 KB] g=14, 359 evaluated, 39 expanded
+[t=0.037862s, 46356 KB] New best heuristic value for lmcut: 20
+[t=0.037862s, 46356 KB] g=15, 376 evaluated, 40 expanded
+[t=0.0398544s, 46356 KB] New best heuristic value for lmcut: 19
+[t=0.0398544s, 46356 KB] g=16, 403 evaluated, 43 expanded
+[t=0.0408526s, 46356 KB] New best heuristic value for lmcut: 18
+[t=0.0408526s, 46356 KB] g=17, 420 evaluated, 44 expanded
+[t=0.04484s, 46356 KB] New best heuristic value for lmcut: 17
+[t=0.04484s, 46356 KB] g=18, 488 evaluated, 52 expanded
+[t=0.0468333s, 46356 KB] New best heuristic value for lmcut: 16
+[t=0.0468333s, 46356 KB] g=19, 517 evaluated, 53 expanded
+[t=0.0478313s, 46356 KB] New best heuristic value for lmcut: 15
+[t=0.0478313s, 46356 KB] g=20, 531 evaluated, 54 expanded
+[t=0.0498245s, 46356 KB] New best heuristic value for lmcut: 14
+[t=0.0498245s, 46356 KB] g=21, 577 evaluated, 57 expanded
+[t=0.051818s, 46356 KB] New best heuristic value for lmcut: 13
+[t=0.051818s, 46356 KB] g=22, 600 evaluated, 58 expanded
+[t=0.051818s, 46356 KB] New best heuristic value for lmcut: 12
+[t=0.051818s, 46356 KB] g=23, 608 evaluated, 59 expanded
+[t=0.0528152s, 46356 KB] New best heuristic value for lmcut: 11
+[t=0.0528152s, 46356 KB] g=24, 622 evaluated, 60 expanded
+[t=0.0548068s, 46356 KB] New best heuristic value for lmcut: 10
+[t=0.0548068s, 46356 KB] g=25, 670 evaluated, 66 expanded
+[t=0.0568011s, 46356 KB] New best heuristic value for lmcut: 9
+[t=0.0568011s, 46356 KB] g=26, 715 evaluated, 67 expanded
+[t=0.057799s, 46356 KB] New best heuristic value for lmcut: 8
+[t=0.057799s, 46356 KB] g=27, 738 evaluated, 68 expanded
+[t=0.057799s, 46356 KB] New best heuristic value for lmcut: 7
+[t=0.057799s, 46356 KB] g=28, 746 evaluated, 69 expanded
+[t=0.057799s, 46356 KB] New best heuristic value for lmcut: 6
+[t=0.0587941s, 46356 KB] g=29, 760 evaluated, 70 expanded
+[t=0.0587941s, 46356 KB] New best heuristic value for lmcut: 5
+[t=0.0587941s, 46356 KB] g=30, 783 evaluated, 71 expanded
+[t=0.0587941s, 46356 KB] New best heuristic value for lmcut: 4
+[t=0.0587941s, 46356 KB] g=31, 793 evaluated, 72 expanded
+[t=0.0597908s, 46356 KB] New best heuristic value for lmcut: 3
+[t=0.0597908s, 46356 KB] g=32, 805 evaluated, 73 expanded
+[t=0.0597908s, 46356 KB] New best heuristic value for lmcut: 2
+[t=0.0597908s, 46356 KB] g=33, 828 evaluated, 74 expanded
+[t=0.0607872s, 46356 KB] New best heuristic value for lmcut: 1
+[t=0.0607872s, 46356 KB] g=34, 849 evaluated, 75 expanded
+[t=0.0607872s, 46356 KB] New best heuristic value for lmcut: 0
+[t=0.0607872s, 46356 KB] g=35, 850 evaluated, 76 expanded
+[t=0.0607872s, 46356 KB] Solution found!
+[t=0.0607872s, 46356 KB] Actual search time: 0.0568095s
+up f0 f14 (1)
+board f14 p1 (1)
+down f14 f0 (1)
+depart f0 p1 (1)
+up f0 f17 (1)
+board f17 p6 (1)
+down f17 f5 (1)
+board f5 p9 (1)
+up f5 f18 (1)
+board f18 p2 (1)
+down f18 f8 (1)
+board f8 p5 (1)
+depart f8 p6 (1)
+up f8 f10 (1)
+depart f10 p5 (1)
+up f10 f19 (1)
+board f19 p10 (1)
+board f19 p8 (1)
+down f19 f16 (1)
+board f16 p3 (1)
+depart f16 p8 (1)
+depart f16 p10 (1)
+up f16 f21 (1)
+board f21 p4 (1)
+board f21 p7 (1)
+depart f21 p9 (1)
+depart f21 p3 (1)
+down f21 f15 (1)
+board f15 p0 (1)
+depart f15 p4 (1)
+down f15 f4 (1)
+depart f4 p7 (1)
+depart f4 p2 (1)
+up f4 f9 (1)
+depart f9 p0 (1)
+[t=0.0607872s, 46356 KB] Plan length: 35 step(s).
+[t=0.0607872s, 46356 KB] Plan cost: 35
+[t=0.0607872s, 46356 KB] Expanded 77 state(s).
+[t=0.0607872s, 46356 KB] Reopened 0 state(s).
+[t=0.0607872s, 46356 KB] Evaluated 850 state(s).
+[t=0.0607872s, 46356 KB] Evaluations: 850
+[t=0.0607872s, 46356 KB] Generated 1680 state(s).
+[t=0.0607872s, 46356 KB] Dead ends: 0 state(s).
+[t=0.0607872s, 46356 KB] Expanded until last jump: 1 state(s).
+[t=0.0607872s, 46356 KB] Reopened until last jump: 0 state(s).
+[t=0.0607872s, 46356 KB] Evaluated until last jump: 22 state(s).
+[t=0.0607872s, 46356 KB] Generated until last jump: 21 state(s).
+[t=0.0607872s, 46356 KB] Number of registered states: 850
+[t=0.0607872s, 46356 KB] Int hash set load factor: 850/1024 = 0.830078
+[t=0.0607872s, 46356 KB] Int hash set resizes: 10
+[t=0.0607872s, 46356 KB] Search time: 0.0578035s
+[t=0.0607872s, 46356 KB] Total time: 0.0607872s
+Solution found.
+Peak memory: 46356 KB
+search exit code: 0
+
